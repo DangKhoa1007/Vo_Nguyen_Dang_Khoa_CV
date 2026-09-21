@@ -55,6 +55,7 @@ img.profile_picture {
     border-radius: 50%;
     object-fit: cover;
 }
+
 .skills_container {
     display: flex;
     justify-content: space-between;
@@ -71,4 +72,9 @@ img.profile_picture {
     height: 80px;
     border-radius: 10px;
     object-fit: cover;
+}
+
+.skills_images a {
+    display: block;
+    line-height: 0;
 }

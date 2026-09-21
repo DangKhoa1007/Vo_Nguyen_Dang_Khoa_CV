@@ -32,12 +32,14 @@ p {
 li {
     margin: 5px;
 }
-.header-content {
+
+.header_content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
+
 .info h1 {
     text-align: left;
     margin-top: 0;
@@ -47,9 +49,26 @@ li {
     text-align: left;
 }
 
-img.profile-picture {
+img.profile_picture {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    object-fit: cover; /* Giữ ảnh không bị bóp méo */
+    object-fit: cover;
+}
+.skills_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills_images {
+    display: flex;
+    gap: 15px;
+}
+
+.skills_images img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
 }

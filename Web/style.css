@@ -1,0 +1,55 @@
+body {
+    background-color: lightgray;
+    font-family: Arial;
+}
+
+.cv {
+    width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+.job {
+    text-align: center;
+}
+
+h2 {
+    color: darkblue;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+}
+
+li {
+    margin: 5px;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.info h1 {
+    text-align: left;
+    margin-top: 0;
+}
+
+.info .job {
+    text-align: left;
+}
+
+img.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; /* Giữ ảnh không bị bóp méo */
+}
